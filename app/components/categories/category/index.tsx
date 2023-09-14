@@ -13,7 +13,7 @@ const Category: React.FC<Props> = ({ active, name, id, onClick }) => {
       id={id.toString()}
       onClick={onClick}
       className={`cursor-pointer select-none text-slate-500 hover:text-blue-600 ${
-        active && "text-blue-600"
+        active && "animate-bounce"
       }`}
     >
       {name}
